@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Trebuchet MS', sans-serif;
+    background-color: #F5F9FB;
 }
 
 textarea {
@@ -17,37 +18,41 @@ input {
 }
 
 h1 {
-    font-size: 4.72rem;
+    font-size: 12vw;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 8vw;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 h3 {
-    font-size: 2.15rem;
+    font-size: 6vw;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
 p {
     text-align: center;
-    line-height: 35px;
-    font-size: 1.2rem;
+    line-height: 6vw;
+    font-size: 3.5vw;
 
 }
 
 .tagline {
-    font-size: 1.7rem;
+    font-size: 5vw;
 }
 
+footer {
+    font-size: 3vw;
+}
 .bold {
     font-weight: bold;
 }
@@ -56,20 +61,6 @@ p {
     max-width: 960px;
     margin: 0 auto 0 auto;
     padding-top: 20px;
-}
-
-.trivia-row {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.trivia-col {
-    padding: 30px;
-}
-
-/* Circle-shaped images */
-.trivia-col img {
-    border-radius:50%;
 }
 
 /* Centers images */
@@ -82,19 +73,39 @@ p {
 }
 
 .carousel {
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     padding-top: 30px;
 }
 
 /* Splits bullet points in 2 columns */
 .multi-column {
+    font-size: 3vw;
     column-count: 2;
     list-style-position: inside;
-    padding-left: 190px;
     padding-bottom: 20px;
 }
 /* Centers footer */
 footer {
     text-align: center;
     padding-bottom: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Fluid Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.trivia-section img {
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.grid-container img {
+    justify-content: center;
+    align-content: center;
 }
